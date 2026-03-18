@@ -28,4 +28,4 @@ What is an environment variable, and why do we store API keys in a .env file ins
 
 **Your answer here**:
 
-An environment variable is a hidden variable. We store API keys in a `.env` file instead of directly in source code because because source code gets pushed to GitHub where anyone can see it. The `.env` file must be added to `.gitignore` so Git ignores it and it never gets pushed to GitHub, if it were accidentally committed, anyone who viewed the repository could steal your API key
+An environment variable is a hidden variable. We store API keys in a `.env` file instead of directly in source code because source code gets pushed to GitHub where anyone can see it. The `.env` file must be added to `.gitignore` so Git ignores it and it never gets pushed to GitHub, if it were accidentally committed, anyone who viewed the repository could steal your API key
